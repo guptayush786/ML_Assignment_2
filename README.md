@@ -57,7 +57,7 @@ The training script downloads the file automatically on first run and stores the
 
 `https://github.com/guptayush786/ML_Assignment_2`
 
-**Live Streamlit App:** `https://mlassignment2-e3ytasps8ctwaujqbcnxrm.streamlit.app/`
+**Live Streamlit App:** `https://mlassignment2-yfkdtyrzaa6uuddzbcossq.streamlit.app/`
 
 ## 6. Data Preprocessing Steps
 
@@ -172,36 +172,3 @@ Then in the browser:
 4. **Model comparison** tab – all five models evaluated on the uploaded data, plus the saved benchmark table.
 5. **Predictions** tab – row-level predictions with a CSV download.
 
-## 15. Streamlit Deployment Steps
-
-1. Push this project to a public GitHub repository.
-2. Go to https://streamlit.io/cloud and sign in with GitHub.
-3. Click **Create app** / **New app**.
-4. Select the repository, branch `main`, and main file `app.py`.
-5. Under *Advanced settings*, choose Python **3.12**.
-6. Click **Deploy** and wait for the dependencies to install.
-
-## Next Steps
-
-1. **Create a GitHub repository** – Log in to https://github.com → click **New** → give it a name (e.g. `ml-assignment-2`) → choose **Public** → click **Create repository**. Do not add a README there (we already have one).
-2. **Push the code** – Open a terminal in the project folder and run:
-   ```bash
-   git init
-   git add .
-   git commit -m "ML Assignment 2: Adult income classification"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
-   Then paste the repository link into Section 5 of this README and push again.
-3. **Deploy on Streamlit Cloud** – Follow Section 15. After deployment you get a link like `https://<something>.streamlit.app`. Open it, upload `test_data.csv`, and check that everything works. Add this link to Section 5.
-4. **Run once in BITS Virtual Lab** – Log in to the BITS Virtual Lab, open a terminal, then:
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
-   pip install -r requirements.txt
-   python model/train_models.py
-   streamlit run app.py
-   ```
-5. **Capture the screenshot** – In the Virtual Lab, take ONE screenshot that shows the terminal with the training output (metrics table) and/or the running Streamlit app in the browser, with the Virtual Lab environment visible.
-6. **Submit** – Create ONE PDF containing, in this order: (1) GitHub repository link, (2) live Streamlit app link, (3) the BITS Virtual Lab screenshot, (4) the content of this README. Upload and press **Submit** (not draft) before the deadline.
