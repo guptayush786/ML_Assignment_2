@@ -55,9 +55,9 @@ The training script downloads the file automatically on first run and stores the
 
 ## 5. GitHub Repository Link
 
-`<paste your GitHub repository URL here>`
+`https://github.com/guptayush786/ML_Assignment_2`
 
-**Live Streamlit App:** `<paste your Streamlit app URL here>`
+**Live Streamlit App:** `https://mlassignment2-e3ytasps8ctwaujqbcnxrm.streamlit.app/`
 
 ## 6. Data Preprocessing Steps
 
